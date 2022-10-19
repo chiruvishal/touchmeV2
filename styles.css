@@ -1,0 +1,93 @@
+body {
+  text-align: center; width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+
+  /* Full height */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   background-image: url(bg2.jpg);
+   position: relative;
+}
+
+
+
+
+#level-title {
+  font-family: 'Black Ops One', cursive;
+  font-size: 4rem;
+  word-spacing: normal;
+  color: yellow;
+  text-shadow: -1px -2px 16px rgb(199, 17, 244);
+letter-spacing: 5px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: black!important;
+  opacity: 0.1;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: #40eb34;
+}
+
+.blue {
+  background-color: #8f11f0;
+}
+
+.yellow {
+  background-color: darkorange;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.main1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: blue;
+  font-size: 30px;
+  background: white;
+  padding: 10px 20px 10px 10px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.main1:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
